@@ -1,0 +1,32 @@
+{
+  "name": "@vuels/nuxt-programmatic-setup",
+  "version": "1.0.0",
+  "description": "A Programmatic setup of Nuxt to access server features within Express This will allow you to add things such as Express Middleware and API Endpoints",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "@vuels",
+    "vuels",
+    "Nuxt",
+    "Nuxt Programmatic Setup"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "isomorphic-fetch": "^2.2.1",
+    "nuxt": "^1.3.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  }
+}
